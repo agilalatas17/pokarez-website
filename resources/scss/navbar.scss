@@ -1,0 +1,25 @@
+// mobile first
+// 576px
+
+nav.navbar {
+    a.navbar-brand img {
+        width: 132px;
+        height: 48px;
+    }
+
+    .navbar-cta {
+        // width: 100%;
+        display: none;
+    }
+}
+
+// tablet
+// 992px - 1999px
+@media (min-width: 992px) {
+    nav.navbar {
+        .navbar-cta {
+            // width: fit-content;
+            display: block;
+        }
+    }
+}

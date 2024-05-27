@@ -1,0 +1,9 @@
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+@import "./navbar.scss";
+@import "./home.scss";
+
+// general
+html,
+body {
+    background-color: #f7f4f1;
+}
