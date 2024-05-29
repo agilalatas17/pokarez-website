@@ -6,9 +6,7 @@
                 <img src="{{ asset('assets/images/Lingkaran-non-Khima.png') }}" class="rounded mx-auto mx-lg-0 d-block"
                     height="272">
 
-                <h1 class="text-center text-lg-start mt-5 mb-4">Early Life Nutrition Academy</h1>
-                <p class="text-center text-lg-start">Cegah Stunting, Ibu Sehat, Anak Cerdas, dan Keluarga Bahagia
-                </p>
+                <h1 class="text-center text-lg-start mt-5 mb-4">Selamat datang di website pokarez</h1>
                 <button type="button" class="btn btn-primary btn-lg mx-auto mx-lg-0 d-block my-5">Gabung
                     Sekarang</button>
             </div>
@@ -135,5 +133,9 @@
         </div>
 
         <button type="button" class="btn btn-primary btn-lg mx-auto d-block mt-4">Tampilkan Artikel Lainya</button>
+    </section>
+
+    <section class="about">
+        <h2>Sepintas tentang <span class="text-primary">POKAREZ</span></h2>
     </section>
 </x-layout>
