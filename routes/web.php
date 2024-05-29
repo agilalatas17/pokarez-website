@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\VideoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +26,9 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/video', function () {
-    return view('video');
-});
+Route::get('/video', [VideoController::class, 'index']);
+Route::get('/video/{id}', [VideoController::class, 'detail']);
+// Route::get('/video', [VideoController::class, 'watch']);
 
 Route::get('/konsultasi', function () {
     return view('konsultasi');

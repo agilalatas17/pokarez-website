@@ -1,5 +1,5 @@
 <x-layout title="Beranda">
-    <section class="welcome my-5">
+    <section class="welcome">
         <div class="row gap-5 gap-lg-0">
             <div class="col-lg-6 left-content">
 
@@ -31,8 +31,8 @@
         </div>
     </section>
 
-    <section class="blog my-5">
-        <h2 class="text-center mb-5">Latest Posts</h2>
+    <section class="blog">
+        <h2 class="text-center mb-5">Artikel Terbaru</h2>
         <div class="row">
             <div class="col-lg-4">
                 <div class="card mb-3">
@@ -135,7 +135,113 @@
         <button type="button" class="btn btn-primary btn-lg mx-auto d-block mt-4">Tampilkan Artikel Lainya</button>
     </section>
 
+    <section class="video">
+        <h2 class="text-center mb-5">Video Terbaru</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card mb-3">
+                    <img src="https://via.placeholder.com/80x80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#"
+                            class="link-offset-2 link-underline link-underline-opacity-0 fw-medium"><small>KATEGORI</small></a>
+                        <h4 class="card-title my-4">Sayur dan Buah untuk Tumbuh Ideal Bagi Remaja</h4>
+                        <p class="card-text"><small class="text-body-secondary">Tanggal Publis</small></p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#"
+                            class="card-link link-offset-2 link-underline link-underline-opacity-0 fw-medium">READ
+                            MORE<img src="{{ asset('assets/icons/bx-chevrons-right.svg') }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-3">
+                    <img src="https://via.placeholder.com/80x80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#"
+                            class="link-offset-2 link-underline link-underline-opacity-0 fw-medium"><small>KATEGORI</small></a>
+                        <h4 class="card-title my-4">Sayur dan Buah untuk Tumbuh Ideal Bagi Remaja</h4>
+                        <p class="card-text"><small class="text-body-secondary">Tanggal Publis</small></p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#"
+                            class="card-link link-offset-2 link-underline link-underline-opacity-0 fw-medium">READ
+                            MORE<img src="{{ asset('assets/icons/bx-chevrons-right.svg') }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-3">
+                    <img src="https://via.placeholder.com/80x80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#"
+                            class="link-offset-2 link-underline link-underline-opacity-0 fw-medium"><small>KATEGORI</small></a>
+                        <h4 class="card-title my-4">Sayur dan Buah untuk Tumbuh Ideal Bagi Remaja</h4>
+                        <p class="card-text"><small class="text-body-secondary">Tanggal Publis</small></p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#"
+                            class="card-link link-offset-2 link-underline link-underline-opacity-0 fw-medium">READ
+                            MORE<img src="{{ asset('assets/icons/bx-chevrons-right.svg') }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-3">
+                    <img src="https://via.placeholder.com/80x80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#"
+                            class="link-offset-2 link-underline link-underline-opacity-0 fw-medium"><small>KATEGORI</small></a>
+                        <h4 class="card-title my-4">Sayur dan Buah untuk Tumbuh Ideal Bagi Remaja</h4>
+                        <p class="card-text"><small class="text-body-secondary">Tanggal Publis</small></p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#"
+                            class="card-link link-offset-2 link-underline link-underline-opacity-0 fw-medium">READ
+                            MORE<img src="{{ asset('assets/icons/bx-chevrons-right.svg') }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-3">
+                    <img src="https://via.placeholder.com/80x80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#"
+                            class="link-offset-2 link-underline link-underline-opacity-0 fw-medium"><small>KATEGORI</small></a>
+                        <h4 class="card-title my-4">Sayur dan Buah untuk Tumbuh Ideal Bagi Remaja</h4>
+                        <p class="card-text"><small class="text-body-secondary">Tanggal Publis</small></p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#"
+                            class="card-link link-offset-2 link-underline link-underline-opacity-0 fw-medium">READ
+                            MORE<img src="{{ asset('assets/icons/bx-chevrons-right.svg') }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-3">
+                    <img src="https://via.placeholder.com/80x80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="#"
+                            class="link-offset-2 link-underline link-underline-opacity-0 fw-medium"><small>KATEGORI</small></a>
+                        <h4 class="card-title my-4">Sayur dan Buah untuk Tumbuh Ideal Bagi Remaja</h4>
+                        <p class="card-text"><small class="text-body-secondary">Tanggal Publis</small></p>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <a href="#"
+                            class="card-link link-offset-2 link-underline link-underline-opacity-0 fw-medium">READ
+                            MORE<img src="{{ asset('assets/icons/bx-chevrons-right.svg') }}"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-lg mx-auto d-block mt-4">Tampilkan Video Lainya</button>
+    </section>
+
     <section class="about">
         <h2>Sepintas tentang <span class="text-primary">POKAREZ</span></h2>
+
+
     </section>
 </x-layout>

@@ -1,9 +1,12 @@
 // tablet
 // 768px
-// section {
-//     margin-top: 64px;
-//     margin-bottom: 64px;
-// }
+
+section.blog,
+section.video,
+section.about {
+    margin-top: 72px !important;
+    margin-bottom: 72px !important;
+}
 
 @media (min-width: 768px) {
     section.welcome {
