@@ -1,11 +1,10 @@
-section.welcome {
-    // .right-content {
-    //     background-image: url("/public/assets/images/andrew-power-y9L5-wmifaYunsplashg-753x1024.jpg");
-    // }
-}
-
 // tablet
 // 768px
+// section {
+//     margin-top: 64px;
+//     margin-bottom: 64px;
+// }
+
 @media (min-width: 768px) {
     section.welcome {
         .left-content {
@@ -21,10 +20,6 @@ section.welcome {
                 font-size: 20px;
             }
         }
-
-        // .right-content {
-        //     background-image: url("/public/assets/images/andrew-power-y9L5-wmifaYunsplashg-753x1024.jpg");
-        // }
     }
 }
 
