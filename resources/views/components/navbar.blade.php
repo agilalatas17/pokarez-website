@@ -37,9 +37,6 @@
                             href="/konsultasi">Konsultasi Pokarez</a>
                     </li>
                 </ul>
-                <div class="navbar-cta">
-                    <button type="button" class="btn btn-primary navbar-cta">Take Free Course</button>
-                </div>
             </div>
 
         </div>
