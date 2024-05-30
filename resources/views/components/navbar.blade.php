@@ -25,8 +25,8 @@
                             Pokarez</a>
                     </li>
                     <li class="nav-item fs-5 fw-medium">
-                        <a class="nav-link {{ request()->is('blog') ? 'active' : '' }}" aria-current="page"
-                            href="/blog">Artikel</a>
+                        <a class="nav-link {{ request()->is('articles') ? 'active' : '' }}" aria-current="page"
+                            href="/articles">Artikel</a>
                     </li>
                     <li class="nav-item fs-5 fw-medium">
                         <a class="nav-link {{ request()->is('video') ? 'active' : '' }}" aria-current="page"
