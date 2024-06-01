@@ -16,21 +16,21 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav mx-auto gap-4">
                     <li class="nav-item fs-5 fw-medium">
-                        <a class="nav-link {{ request()->is('konsultasi') ? 'text-white' : '' }}{{ request()->is('/') ? 'active' : '' }}"
-                            aria-current="page" href="/">Beranda</a>
+                        <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" aria-current="page"
+                            href="/">Beranda</a>
                     </li>
                     <li class="nav-item fs-5 fw-medium">
-                        <a class="nav-link {{ request()->is('konsultasi') ? 'text-white' : '' }}{{ request()->is('about') ? 'active' : '' }}"
-                            aria-current="page" href="/about">Tentang
+                        <a class="nav-link {{ request()->is('about') ? 'active' : '' }}" aria-current="page"
+                            href="/about">Tentang
                             Pokarez</a>
                     </li>
                     <li class="nav-item fs-5 fw-medium">
-                        <a class="nav-link {{ request()->is('konsultasi') ? 'text-white' : '' }}{{ request()->is('articles') ? 'active' : '' }}"
-                            aria-current="page" href="/articles">Artikel</a>
+                        <a class="nav-link {{ request()->is('articles') ? 'active' : '' }}" aria-current="page"
+                            href="/articles">Artikel</a>
                     </li>
                     <li class="nav-item fs-5 fw-medium">
-                        <a class="nav-link {{ request()->is('konsultasi') ? 'text-white' : '' }}{{ request()->is('video') ? 'active' : '' }}"
-                            aria-current="page" href="/video">Video</a>
+                        <a class="nav-link {{ request()->is('video') ? 'active' : '' }}" aria-current="page"
+                            href="/video">Video</a>
                     </li>
                     <li class="nav-item fs-5 fw-medium">
                         <a class="nav-link {{ request()->is('konsultasi') ? 'active' : '' }}" aria-current="page"
