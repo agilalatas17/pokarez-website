@@ -13,9 +13,9 @@
 <body>
     <x-navbar />
 
-    <div class="container">
+    <main class="main-content">
         {{ $slot }}
-    </div>
+    </main>
 </body>
 
 </html>
