@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg position-fixed w-100">
     <div class="container">
         <a class="navbar-brand" href="/"><img src="{{ asset('assets/logo/erlina_logo.png') }}" alt="pokarez logo"
                 width="193" height="72"></a>
@@ -25,8 +25,8 @@
                             Pokarez</a>
                     </li>
                     <li class="nav-item fs-5 fw-medium">
-                        <a class="nav-link {{ request()->is('blog') ? 'active' : '' }}" aria-current="page"
-                            href="/blog">Artikel</a>
+                        <a class="nav-link {{ request()->is('articles') ? 'active' : '' }}" aria-current="page"
+                            href="/articles">Artikel</a>
                     </li>
                     <li class="nav-item fs-5 fw-medium">
                         <a class="nav-link {{ request()->is('video') ? 'active' : '' }}" aria-current="page"
@@ -34,7 +34,7 @@
                     </li>
                     <li class="nav-item fs-5 fw-medium">
                         <a class="nav-link {{ request()->is('konsultasi') ? 'active' : '' }}" aria-current="page"
-                            href="/konsultasi">Konsultasi Pokarez</a>
+                            href="/konsultasi" id="konsultasi-link">Konsultasi Pokarez</a>
                     </li>
                 </ul>
             </div>

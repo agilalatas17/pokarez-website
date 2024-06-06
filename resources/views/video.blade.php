@@ -1,3 +1,7 @@
 <x-layout title="Video">
-    <h1>Halaman Video</h1>
+    <section class="video">
+        <div class="container">
+            <h1>Halaman Video</h1>
+        </div>
+    </section>
 </x-layout>

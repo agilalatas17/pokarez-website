@@ -1,3 +1,7 @@
 <x-layout title="Tentang Pokarez">
-    <h1>Halaman Tentang Pokarez</h1>
+    <section class="about">
+        <div class="container">
+            <h1>Halaman Tentang Pokarez</h1>
+        </div>
+    </section>
 </x-layout>

@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/js/app.js')
 
-    <title>{{ $title ?? 'Todo Manager' }}</title>
+    <title>{{ $title ?? 'POKAREZ' }}</title>
 </head>
 
 <body>
     <x-navbar />
 
-    <div class="container">
+    <main class="main-content">
         {{ $slot }}
-    </div>
+    </main>
 </body>
 
 </html>
