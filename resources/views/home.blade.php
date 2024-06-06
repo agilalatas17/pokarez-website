@@ -249,9 +249,18 @@
         </section>
 
         <section class="sekilas-tentang">
-            <h2>Sepintas tentang <span class="text-primary">POKAREZ</span></h2>
+            <div class="row">
+                <h2>Sepintas Tentang <span class="text-primary">POKAREZ</span></h2>
 
-
+                <article class="mt-4">
+                    Pola Makan Sehat Remaja Putri - <span class="text-primary">Pokarez</span>, merupakan suatu bentuk
+                    kegiatan
+                    edukasi gizi dan kesehatan pada remaja putri sebagai upaya pencegahan anemia Pola makan kurang tepat
+                    pada remaja sebelum atau selama menstruasi yaitu dengan mengkonsumsi makanan yang tidak sehat Status
+                    gizi berkaitan dengan asupan zat gizi termasuk zat besi, status gizi sangatlah penting bagi remaja
+                    karena dapat mempengaruhi proses pertumbuhan dan zat besi berperan dalam pembentukan darah merah.
+                </article>
+            </div>
         </section>
     </div>
 </x-layout>
