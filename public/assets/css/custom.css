@@ -1,7 +1,7 @@
 /* Lobster Font */
 @font-face {
     font-family: "lobster";
-    src: url("/public/assets/fonts/Lobster-Regular.ttf") format("truetype");
+    src: url("../fonts/Lobster-Regular.ttf") format("truetype");
 }
 
 /* general */
@@ -73,7 +73,7 @@ section.sekilas-tentang {
 
 @media (min-width: 992px) {
     section.welcome .right-content {
-        background-image: url("/public/assets/images/andrew-power-y9L5-wmifaYunsplashg-753x1024.jpg");
+        background-image: url("../images/andrew-power-y9L5-wmifaYunsplashg-753x1024.jpg");
         background-size: cover;
         background-repeat: no-repeat;
 
