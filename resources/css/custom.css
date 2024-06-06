@@ -1,0 +1,117 @@
+/* Lobster Font */
+@font-face {
+    font-family: "lobster";
+    src: url("/public/assets/fonts/Lobster-Regular.ttf") format("truetype");
+}
+
+/* general */
+html,
+body {
+    background-color: #f6f2ef;
+}
+
+section:not(
+        section.welcome,
+        section.blog-terbaru,
+        section.video-terbaru,
+        section.sekilas-tentang
+    ) {
+    padding-top: 74px;
+}
+
+.active {
+    color: #e49bff !important;
+}
+
+/* === NAVBAR STYLE === */
+
+nav.navbar {
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+nav.navbar a.navbar-brand img {
+    width: 132px;
+    height: 48px;
+}
+
+nav.navbar .offcanvas-backdrop {
+    position: relative;
+}
+
+/* === HOMEPAGE STYLE === */
+
+section.blog-terbaru,
+section.video-terbaru,
+section.sekilas-tentang {
+    margin-top: 72px !important;
+    margin-bottom: 72px !important;
+}
+
+@media (min-width: 768px) {
+    section.welcome .left-content img {
+        height: 337px;
+    }
+
+    section.welcome .left-content h1 {
+        font-size: 56px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    section.welcome .right-content {
+        background-image: url("/public/assets/images/andrew-power-y9L5-wmifaYunsplashg-753x1024.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        position: relative;
+    }
+
+    .konsultasi .content {
+        h1 {
+            font-size: 72px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+    }
+}
+
+/* === ARTICLES STYLE === */
+
+section.articles {
+    padding-top: 74px;
+}
+
+/* === KONSULTASI STYLE === */
+.konsultasi {
+    background-image: url("/public/assets/images/nutrition_food_medium.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.konsultasi .content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    color: white;
+
+    h1 {
+        font-family: "lobster";
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+}
