@@ -1,6 +1,8 @@
 <?php
 
+use App\Models\Article;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\VideoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/articles', function(){
+    return view('articles', ['articles' => Article::all()]);
+});
+
+Route::get('/articles/{slug}', function($slug){
+    
+    $article = Article::find($slug);
+    return view('article', ['article' => $article]);
+});
+
+Route::get('/video', [VideoController::class, 'index']);
+Route::get('/video/{id}', [VideoController::class, 'detail']);
+// Route::get('/video', [VideoController::class, 'watch']);
+
+Route::get('/konsultasi', function () {
+    return view('konsultasi');
 });

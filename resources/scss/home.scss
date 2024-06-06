@@ -1,0 +1,35 @@
+// tablet
+// 768px
+
+section.blog-terbaru,
+section.video-terbaru,
+section.sekilas-tentang {
+    margin-top: 72px !important;
+    margin-bottom: 72px !important;
+}
+
+@media (min-width: 768px) {
+    section.welcome {
+        .left-content {
+            img {
+                height: 337px;
+            }
+
+            h1 {
+                font-size: 56px !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    section.welcome {
+        .right-content {
+            background-image: url("/public/assets/images/andrew-power-y9L5-wmifaYunsplashg-753x1024.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            position: relative;
+        }
+    }
+}
