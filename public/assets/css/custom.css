@@ -54,9 +54,9 @@ nav.navbar .offcanvas-backdrop {
 
 nav.navbar a.navbar-brand,
 a.offcanvas-title {
-    font-family: "lobster";
-    font-size: 44px;
-    color: #e49bff;
+    font-family: "lobster" !important;
+    font-size: 44px !important;
+    color: #e49bff !important;
 }
 
 /* === HOMEPAGE STYLE === */
