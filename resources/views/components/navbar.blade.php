@@ -1,7 +1,6 @@
 <nav class="navbar navbar-expand-lg position-fixed w-100">
     <div class="container">
-        <a class="navbar-brand" href="/"><img src="{{ asset('assets/logo/erlina_logo.png') }}" alt="pokarez logo"
-                width="193" height="72"></a>
+        <a class="navbar-brand" href="/">Pokarez.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,8 +8,7 @@
         <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-                <a href='/' class="offcanvas-title" id="offcanvasNavbarLabel"><img
-                        src="{{ asset('assets/logo/erlina_logo.png') }}" alt="pokarez logo" width="132"></a>
+                <a href='/' class="offcanvas-title" id="offcanvasNavbarLabel">Pokarez.</a>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
