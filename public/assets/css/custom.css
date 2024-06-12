@@ -52,6 +52,13 @@ nav.navbar .offcanvas-backdrop {
     position: relative;
 }
 
+nav.navbar a.navbar-brand,
+a.offcanvas-title {
+    font-family: "lobster";
+    font-size: 44px;
+    color: #e49bff;
+}
+
 /* === HOMEPAGE STYLE === */
 
 section.blog-terbaru,
