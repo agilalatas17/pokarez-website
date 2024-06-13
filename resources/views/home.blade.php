@@ -1,7 +1,7 @@
 <x-layout title="Beranda">
     <div class="container">
         <section class="welcome">
-            <div class="row gap-5 gap-lg-0">
+            {{-- <div class="row gap-5 gap-lg-0">
                 <div class="col-lg-6 left-content">
 
                     <img src="{{ asset('assets/images/Lingkaran-non-Khima.png') }}"
@@ -29,7 +29,13 @@
                         </div>
                     </div>
                 </div>
+            </div> --}}
+
+            <div class="row">
+                <h1 class="text-center mt-5 mb-4">Selamat datang di website pokarez</h1>
             </div>
+
+
         </section>
 
         <section class="blog-terbaru">

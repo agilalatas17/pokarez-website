@@ -18,6 +18,17 @@ section:not(
     padding-top: 74px;
 }
 
+section.welcome {
+    height: 100vh;
+}
+
+section.welcome .row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .btn-success {
     background-color: #25d366 !important;
     color: #000 !important;
@@ -43,10 +54,10 @@ nav.navbar {
     backdrop-filter: blur(5px);
 }
 
-nav.navbar a.navbar-brand img {
+/* nav.navbar a.navbar-brand img {
     width: 132px;
     height: 48px;
-}
+} */
 
 nav.navbar .offcanvas-backdrop {
     position: relative;
@@ -55,7 +66,7 @@ nav.navbar .offcanvas-backdrop {
 nav.navbar a.navbar-brand,
 a.offcanvas-title {
     font-family: "lobster" !important;
-    font-size: 44px !important;
+    font-size: 32px !important;
     color: #e49bff !important;
 }
 
